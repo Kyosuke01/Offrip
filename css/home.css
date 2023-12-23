@@ -1,0 +1,135 @@
+/* container-1 */
+
+.page-container {
+    height: 150vh;
+    padding-top: 100px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container-1 img {
+    max-width: 100%;
+    max-height: 450px;
+    height: auto;
+}
+
+.container-1 .txt {
+    text-align: center;
+}
+
+.container-1 .txt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-1 .txt h2,
+.container-1 .txt p {
+    margin-bottom: 80px;
+    white-space: nowrap;
+}
+
+.container-1 .txt h2 {
+    font-size: 200%;
+    font-family: 'GothamBold', sans-serif;
+}
+
+.container-1 .txt p {
+    font-size: 125%;
+    white-space: nowrap;
+}
+
+.container-1 .txt button {
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: White;
+    padding: 15px 25px;
+    white-space: nowrap;
+    font-family: 'GothamBold', sans-serif;
+    cursor: pointer;
+    font-size: 122.5%;
+}
+
+/* container-2 */
+
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 250px 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container-2 img {
+    max-width: 100%;
+    max-height: 450px;
+    height: auto;
+}
+
+.container-2 .txt {
+    text-align: center;
+}
+
+.container-2 .txt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-2 .txt h2,
+.container-2 .txt span {
+    margin-bottom: 80px;
+    white-space: nowrap;
+}
+
+.container-2 .txt span {
+    margin-right: 10px;
+}
+
+.container-2 .txt h2 {
+    font-size: 200%;
+    font-family: 'GothamBold', sans-serif;
+}
+
+.container-2 .txt .citation {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2 .txt .citation p {
+    font-size: 125%;
+    white-space: nowrap;
+}
+
+.container-2 .txt .citation span {
+    align-self: self-end;
+}
+
+.container-2 .txt button {
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: White;
+    padding: 15px 25px;
+    white-space: nowrap;
+    font-family: 'GothamBold', sans-serif;
+    cursor: pointer;
+    font-size: 122.5%;
+}
+
+.btn-hover {
+    transition: all .2s ease-out;
+}
+
+.btn-hover:hover {
+    transform: perspective(1px) scale3d(1.05, 1.05, 1) translateZ(0) !important;
+}

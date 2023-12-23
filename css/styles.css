@@ -1,0 +1,219 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url('/fonts/GothamBook.ttf') format('opentype');
+}
+
+html {
+    font-family: 'GothamBook', sans-serif;
+}
+
+header .header {
+    position: relative;
+    background-color: white;
+    height: 10vh;
+    z-index: 50;
+}
+
+.header_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #111;
+}
+
+/* BUTTON BURGER */
+
+.div_button {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.box {
+    width: 25px;
+    height: 25px;
+    border: none;
+    position: relative;
+    background: none;
+    z-index: 50;
+    cursor: pointer;
+}
+
+.container-lignes {
+    width: 25px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.ligne {
+    position: absolute;
+    border-radius: 3px;
+    width: 25px;
+    height: 2.5px;
+    background-color: #111;
+}
+.box .ligne:nth-child(1) {
+    top: 0px;
+}
+.box .ligne:nth-child(2) {
+    top: 7px;
+}
+.box .ligne:nth-child(3) {
+    top: 14px;
+}
+
+/* ANIM burger */
+
+.b1 .container-lignes {
+    transition: transform 0.4s ease-in-out;
+}
+
+.b1.active .container-lignes {
+    transition: transform 0.4s 0.4s ease-in-out;
+    transform: translate(-50%, -50%) rotate(-360deg);
+}
+
+.b1 .ligne:nth-child(1), .ligne:nth-child(3) {
+    transform: rotate(0deg);
+    transition:
+    transform 0.4s ease-in-out,
+    top 0.4s 0.4s ease-in-out;
+}
+
+.b1 .ligne:nth-child(2) {
+    transition: opacity 0.4s 0.4s ease-in-out;
+}
+
+.b1.active .ligne:nth-child(1) {
+    top: 10px;
+    transform: rotate(-45deg);
+    transition:
+    top 0.4s ease-in-out,
+    transform 0.4s 0.4s ease-in-out;
+}
+
+.b1.active .ligne:nth-child(2) {
+    transition: opacity 0.4s ease-in-out;
+    opacity: 0;
+}
+
+.b1.active .ligne:nth-child(3) {
+    top: 10px;
+    transform: rotate(45deg);
+    transition:
+    top 0.4s ease-in-out,
+    transform 0.4s 0.4s ease-in-out;
+}
+
+.nav_link {
+    font-family: 'GothamBold', sans-serif;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    display: none;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+    margin-top: -10vh;
+    background-color: white;
+    z-index: 5;
+    padding: 0 400px;
+}
+
+.nav_link a {
+    text-decoration: none;
+    padding: 10px;
+    transition: opacity 0.1s ease-in-out; /* Ajout de la transition ease-in-out */
+}
+
+.nav_link a:hover {
+    opacity: 0.7;
+}
+
+.nav_link li a {
+    color: #111;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.div_image_header {
+    position: relative;
+    overflow: hidden;
+}
+
+.image_header {
+    width: 100vw;
+    margin-top: -5%;
+    position: relative;
+}
+
+.txt_image_header {
+    font-family: 'GothamBold', sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: white;
+}
+
+.txt_image_header .txt1 {
+    font-size: 2vw;
+}
+
+.txt_image_header .txt2 {
+    font-size: 1.2vw;
+    color: #E1E1E1;
+}
+
+.div_chevron {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -92%);
+    color: #A5A5A5;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_chevron i {
+    font-size: 30px;
+}
+
+.div_chevron p {
+    font-family: 'GothamBold', sans-serif;
+    font-size: 13px;
+}
+
+.div_chevron:hover .element_chevron {
+    transform: scale(1.08);
+}

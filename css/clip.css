@@ -1,0 +1,60 @@
+.clips {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    justify-content: center;
+    grid-row-gap: 100px;
+    margin: 15vh 0 20vh 0;
+    text-align: center;
+}
+
+.card_clip {
+    position: relative;
+}
+
+.card_clip img {
+    width: 400px;
+}
+
+.infos_clip {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10%;
+    font-family: 'GothamBold', sans-serif;
+}
+
+.infos_clip p {
+    font-size: 14px;
+    color: #8B8B8B;
+    align-self: self-start;
+}
+
+/* 3D_effect */
+
+.card {
+    perspective: 1000px;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.card:hover {
+    z-index: 10;
+}
+
+.content-card {
+    overflow: hidden;
+    transition: all 0.15s ease-out;
+}
+
+.glow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: all 0.15s ease-out;
+    border-radius: 25px;
+    mix-blend-mode: hard-light;
+    background: radial-gradient(circle at 50% 0%, rgb(184, 196, 211), transparent);
+}
