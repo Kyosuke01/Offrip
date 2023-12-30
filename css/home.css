@@ -22,10 +22,6 @@
 
 .container-1 .txt {
     text-align: center;
-}
-
-.container-1 .txt {
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,6 +55,396 @@
 }
 
 @media screen and (max-width: 3670px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 1000px;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 17%;
+    }
+
+    .container-1 .txt button {
+        padding: 3% 6%;
+    }
+}
+
+@media screen and (max-width: 3265px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 900px;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 3085px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 800px;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 13%;
+    }
+
+    .container-1 .txt p {
+        font-size: 220%;
+    }
+
+    .container-1 .txt button {
+        border: 2px solid #000;
+        font-size: 220%;
+    }
+}
+
+@media screen and (max-width: 2800px) {
+    .container-1 .txt p {
+        font-size: 180%;
+    }
+
+    .container-1 .txt button {
+        font-size: 180%;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 700px;
+    }
+}
+
+@media screen and (max-width: 2340px) {
+    .container-1 .txt h2 {
+        font-size: 350%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 18%;
+    }
+
+    .container-1 .txt p {
+        font-size: 150%;
+    }
+
+    .container-1 .txt button {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 2150px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 600px;
+    }
+}
+
+@media screen and (max-width: 1970px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 550px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 300%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 15%;
+    }
+
+    .container-1 .txt p {
+        font-size: 140%;
+    }
+
+    .container-1 .txt button {
+        font-size: 140%;
+    }
+}
+
+@media screen and (max-width: 1840px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 450px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 250%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 15%;
+    }
+
+    .container-1 .txt p {
+        font-size: 130%;
+    }
+
+    .container-1 .txt button {
+        font-size: 130%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 400px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 200%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 12%;
+    }
+
+    .container-1 .txt p {
+        font-size: 110%;
+    }
+
+    .container-1 .txt button {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 350px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 150%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 12%;
+    }
+
+    .container-1 .txt p {
+        font-size: 100%;
+    }
+
+    .container-1 .txt button {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .container-1 .txt h2 {
+        font-size: 125%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 10%;
+    }
+
+    .container-1 .txt p {
+        font-size: 80%;
+    }
+
+    .container-1 .txt button {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 250px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 115%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 8%;
+    }
+
+    .container-1 .txt p {
+        font-size: 60%;
+    }
+
+    .container-1 .txt button {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .container-1 .txt {
+        padding: 50px 0;
+    }
+
+    .container-1 img {
+        max-width: 100%;
+        max-height: 400px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 200%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 20%;
+    }
+
+    .container-1 .txt p {
+        font-size: 100%;
+    }
+
+    .container-1 .txt button {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-1 .txt {
+        padding: 70px 0;
+    }
+
+    .container-1 img {
+        max-width: 100%;
+        max-height: 350px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 200%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 15%;
+    }
+
+    .container-1 .txt p {
+        font-size: 90%;
+    }
+
+    .container-1 .txt button {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container-1 .txt {
+        padding: 50px 0;
+    }
+
+    .container-1 img {
+        max-width: 100%;
+        max-height: 300px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 160%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 10%;
+    }
+
+    .container-1 .txt p {
+        font-size: 70%;
+    }
+
+    .container-1 .txt button {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container-1 .txt {
+        padding: 50px 0;
+    }
+
+    .container-1 img {
+        max-width: 100%;
+        max-height: 250px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 160%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 10%;
+    }
+
+    .container-1 .txt p {
+        font-size: 60%;
+    }
+
+    .container-1 .txt button {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .container-1 .txt {
+        padding: 50px 0;
+    }
+
+    .container-1 img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .container-1 .txt h2 {
+        font-size: 140%;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 10%;
+    }
+
+    .container-1 .txt p {
+        font-size: 50%;
+    }
+
+    .container-1 .txt button {
+        font-size: 50%;
+    }
+}
+
+
+/* @media screen and (max-width: 3670px) {
     .container-1 img {
         max-width: 100%;
         max-height: 1000px;
@@ -484,7 +870,7 @@
             }
         }
     }
-}
+} */
 
 /* container-2 */
 
@@ -553,6 +939,7 @@
     font-family: 'GothamBold', sans-serif;
     cursor: pointer;
     font-size: 250%;
+    color: #000;
 }
 
 .btn-hover {
@@ -562,10 +949,6 @@
 .btn-hover:hover {
     transform: perspective(1px) scale3d(1.05, 1.05, 1) translateZ(0) !important;
 }
-
-
-/* ------------------------------------------------- */
-
 
 @media screen and (max-width: 3670px) {
 
