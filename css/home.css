@@ -55,6 +55,7 @@
     font-family: 'GothamBold', sans-serif;
     cursor: pointer;
     font-size: 250%;
+    color: #000;
 }
 
 @media screen and (max-width: 3670px) {
