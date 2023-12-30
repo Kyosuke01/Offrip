@@ -5,6 +5,7 @@
     grid-row-gap: 100px;
     margin: 15vh 0 20vh 0;
     text-align: center;
+    overflow: hidden;
 }
 
 .card_clip {
@@ -42,7 +43,6 @@
 }
 
 .content-card {
-    overflow: hidden;
     transition: all 0.15s ease-out;
 }
 
@@ -57,4 +57,52 @@
     border-radius: 25px;
     mix-blend-mode: hard-light;
     background: radial-gradient(circle at 50% 0%, rgb(184, 196, 211), transparent);
+}
+
+@media screen and (max-width: 545px) {
+    .card_clip img {
+        width: 350px;
+    }
+
+    .infos_clip {
+        left: 15%;
+    }
+
+    .infos_clip h2 {
+        font-size: 18px;
+    }
+
+    .infos_clip p {
+        font-size: 12px;
+    }
+
+    .card {
+        margin: 0 75px;
+    }
+
+    @media screen and (max-width: 410px) {
+        .card_clip img {
+            width: 250px;
+        }
+
+        .infos_clip {
+            left: 25%;
+        }
+
+        .infos_clip h2 {
+            font-size: 16px;
+        }
+
+        .infos_clip p {
+            font-size: 10px;
+        }
+
+        .card {
+            margin: 0 125px;
+        }
+
+        .glow {
+            border-radius: 13px;
+        }
+    }
 }

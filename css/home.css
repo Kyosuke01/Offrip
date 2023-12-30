@@ -2,21 +2,21 @@
 
 .page-container {
     height: 150vh;
-    padding-top: 100px;
+    padding-top: 5%;
 }
 
 .container-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 5%;
     width: 100%;
     box-sizing: border-box;
 }
 
 .container-1 img {
     max-width: 100%;
-    max-height: 450px;
+    max-height: 50%;
     height: auto;
 }
 
@@ -33,29 +33,456 @@
 
 .container-1 .txt h2,
 .container-1 .txt p {
-    margin-bottom: 80px;
-    white-space: nowrap;
+    margin-bottom: 25%;
 }
 
 .container-1 .txt h2 {
-    font-size: 200%;
+    font-size: 400%;
     font-family: 'GothamBold', sans-serif;
 }
 
 .container-1 .txt p {
-    font-size: 125%;
+    font-size: 250%;
     white-space: nowrap;
 }
 
 .container-1 .txt button {
-    border-radius: 5px;
-    border: 1px solid #000;
+    border-radius: 10px;
+    border: 3px solid #000;
     background-color: White;
-    padding: 15px 25px;
+    padding: 4% 7%;
     white-space: nowrap;
     font-family: 'GothamBold', sans-serif;
     cursor: pointer;
-    font-size: 122.5%;
+    font-size: 250%;
+}
+
+@media screen and (max-width: 3670px) {
+    .container-1 img {
+        max-width: 100%;
+        max-height: 1000px;
+    }
+
+    .container-1 .txt h2,
+    .container-1 .txt p {
+        margin-bottom: 17%;
+    }
+
+    .container-1 .txt button {
+        padding: 3% 6%;
+    }
+
+    @media screen and (max-width: 3265px) {
+        .container-1 img {
+            max-width: 100%;
+            max-height: 900px;
+        }
+
+        .container-1 .txt h2,
+        .container-1 .txt p {
+            margin-bottom: 15%;
+        }
+
+        @media screen and (max-width: 3085px) {
+            .container-1 img {
+                max-width: 100%;
+                max-height: 800px;
+            }
+
+            .container-1 .txt h2,
+            .container-1 .txt p {
+                margin-bottom: 13%;
+            }
+
+            .container-1 .txt p {
+                font-size: 220%;
+            }
+
+            .container-1 .txt button {
+                border: 2px solid #000;
+                font-size: 220%;
+            }
+
+            @media screen and (max-width: 2800px) {
+                .container-1 .txt p {
+                    font-size: 180%;
+                }
+
+                .container-1 .txt button {
+                    font-size: 180%;
+                }
+
+                @media screen and (max-width: 2560px) {
+                    .container-1 img {
+                        max-width: 100%;
+                        max-height: 700px;
+                    }
+
+                    @media screen and (max-width: 2340px) {
+                        .container-1 .txt h2 {
+                            font-size: 350%;
+                        }
+
+                        .container-1 .txt h2,
+                        .container-1 .txt p {
+                            margin-bottom: 18%;
+                        }
+
+                        .container-1 .txt p {
+                            font-size: 150%;
+                        }
+
+                        .container-1 .txt button {
+                            font-size: 150%;
+                        }
+
+                        @media screen and (max-width: 2150px) {
+                            .container-1 img {
+                                max-width: 100%;
+                                max-height: 600px;
+                            }
+
+                            @media screen and (max-width: 1970px) {
+                                .container-1 img {
+                                    max-width: 100%;
+                                    max-height: 550px;
+                                }
+
+                                .container-1 .txt h2 {
+                                    font-size: 300%;
+                                }
+
+                                .container-1 .txt h2,
+                                .container-1 .txt p {
+                                    margin-bottom: 15%;
+                                }
+
+                                .container-1 .txt p {
+                                    font-size: 140%;
+                                }
+
+                                .container-1 .txt button {
+                                    font-size: 140%;
+                                }
+
+                                @media screen and (max-width: 1840px) {
+                                    .container-1 img {
+                                        max-width: 100%;
+                                        max-height: 450px;
+                                    }
+
+                                    .container-1 .txt h2 {
+                                        font-size: 250%;
+                                    }
+
+                                    .container-1 .txt h2,
+                                    .container-1 .txt p {
+                                        margin-bottom: 15%;
+                                    }
+
+                                    .container-1 .txt p {
+                                        font-size: 130%;
+                                    }
+
+                                    .container-1 .txt button {
+                                        font-size: 130%;
+                                    }
+
+                                    @media screen and (max-width: 1600px) {
+                                        .container-1 img {
+                                            max-width: 100%;
+                                            max-height: 400px;
+                                        }
+
+                                        .container-1 .txt h2 {
+                                            font-size: 200%;
+                                        }
+
+                                        .container-1 .txt h2,
+                                        .container-1 .txt p {
+                                            margin-bottom: 12%;
+                                        }
+
+                                        .container-1 .txt p {
+                                            font-size: 110%;
+                                        }
+
+                                        .container-1 .txt button {
+                                            font-size: 110%;
+                                        }
+
+                                        @media screen and (max-width: 1400px) {
+                                            .container-1 img {
+                                                max-width: 100%;
+                                                max-height: 350px;
+                                            }
+
+                                            .container-1 .txt h2 {
+                                                font-size: 150%;
+                                            }
+
+                                            .container-1 .txt h2,
+                                            .container-1 .txt p {
+                                                margin-bottom: 12%;
+                                            }
+
+                                            .container-1 .txt p {
+                                                font-size: 100%;
+                                            }
+
+                                            .container-1 .txt button {
+                                                font-size: 100%;
+                                            }
+
+                                            @media screen and (max-width: 1250px) {
+                                                .container-1 img {
+                                                    max-width: 100%;
+                                                    max-height: 300px;
+                                                }
+
+                                                @media screen and (max-width: 1150px) {
+                                                    .container-1 .txt h2 {
+                                                        font-size: 125%;
+                                                    }
+
+                                                    .container-1 .txt h2,
+                                                    .container-1 .txt p {
+                                                        margin-bottom: 10%;
+                                                    }
+
+                                                    .container-1 .txt p {
+                                                        font-size: 80%;
+                                                    }
+
+                                                    .container-1 .txt button {
+                                                        font-size: 80%;
+                                                    }
+
+                                                    @media screen and (max-width: 1030px) {
+                                                        .container-1 img {
+                                                            max-width: 100%;
+                                                            max-height: 250px;
+                                                        }
+
+                                                        .container-1 .txt h2 {
+                                                            font-size: 115%;
+                                                        }
+
+                                                        .container-1 .txt h2,
+                                                        .container-1 .txt p {
+                                                            margin-bottom: 8%;
+                                                        }
+
+                                                        .container-1 .txt p {
+                                                            font-size: 60%;
+                                                        }
+
+                                                        .container-1 .txt button {
+                                                            font-size: 60%;
+                                                        }
+
+                                                        @media screen and (max-width: 830px) {
+                                                            .container-1 img {
+                                                                max-width: 100%;
+                                                                max-height: 200px;
+                                                            }
+
+                                                            @media screen and (max-width: 768px) {
+                                                                .container-1 {
+                                                                    flex-direction: column;
+                                                                }
+
+                                                                .container-1 .txt {
+                                                                    padding: 50px 0;
+                                                                }
+
+                                                                .container-1 img {
+                                                                    max-width: 100%;
+                                                                    max-height: 400px;
+                                                                }
+
+                                                                .container-1 .txt h2 {
+                                                                    font-size: 200%;
+                                                                }
+
+                                                                .container-1 .txt h2,
+                                                                .container-1 .txt p {
+                                                                    margin-bottom: 20%;
+                                                                }
+
+                                                                .container-1 .txt p {
+                                                                    font-size: 100%;
+                                                                }
+
+                                                                .container-1 .txt button {
+                                                                    font-size: 100%;
+                                                                }
+
+                                                                @media screen and (max-width: 830px) {
+                                                                    .container-1 img {
+                                                                        max-width: 100%;
+                                                                        max-height: 200px;
+                                                                    }
+
+                                                                    @media screen and (max-width: 768px) {
+                                                                        .container-1 {
+                                                                            flex-direction: column;
+                                                                        }
+
+                                                                        .container-1 .txt {
+                                                                            padding: 50px 0;
+                                                                        }
+
+                                                                        .container-1 img {
+                                                                            max-width: 100%;
+                                                                            max-height: 400px;
+                                                                        }
+
+                                                                        .container-1 .txt h2 {
+                                                                            font-size: 200%;
+                                                                        }
+
+                                                                        .container-1 .txt h2,
+                                                                        .container-1 .txt p {
+                                                                            margin-bottom: 20%;
+                                                                        }
+
+                                                                        .container-1 .txt p {
+                                                                            font-size: 100%;
+                                                                        }
+
+                                                                        .container-1 .txt button {
+                                                                            font-size: 100%;
+                                                                        }
+
+                                                                        @media screen and (max-width: 600px) {
+                                                                            .container-1 .txt {
+                                                                                padding: 70px 0;
+                                                                            }
+
+                                                                            .container-1 img {
+                                                                                max-width: 100%;
+                                                                                max-height: 350px;
+                                                                            }
+
+                                                                            .container-1 .txt h2 {
+                                                                                font-size: 200%;
+                                                                            }
+
+                                                                            .container-1 .txt h2,
+                                                                            .container-1 .txt p {
+                                                                                margin-bottom: 15%;
+                                                                            }
+
+                                                                            .container-1 .txt p {
+                                                                                font-size: 90%;
+                                                                            }
+
+                                                                            .container-1 .txt button {
+                                                                                font-size: 90%;
+                                                                            }
+
+                                                                            @media screen and (max-width: 450px) {
+                                                                                .container-1 .txt {
+                                                                                    padding: 50px 0;
+                                                                                }
+
+                                                                                .container-1 img {
+                                                                                    max-width: 100%;
+                                                                                    max-height: 300px;
+                                                                                }
+
+                                                                                .container-1 .txt h2 {
+                                                                                    font-size: 160%;
+                                                                                }
+
+                                                                                .container-1 .txt h2,
+                                                                                .container-1 .txt p {
+                                                                                    margin-bottom: 10%;
+                                                                                }
+
+                                                                                .container-1 .txt p {
+                                                                                    font-size: 70%;
+                                                                                }
+
+                                                                                .container-1 .txt button {
+                                                                                    font-size: 70%;
+                                                                                }
+
+                                                                                @media screen and (max-width: 390px) {
+                                                                                    .container-1 .txt {
+                                                                                        padding: 50px 0;
+                                                                                    }
+
+                                                                                    .container-1 img {
+                                                                                        max-width: 100%;
+                                                                                        max-height: 250px;
+                                                                                    }
+
+                                                                                    .container-1 .txt h2 {
+                                                                                        font-size: 160%;
+                                                                                    }
+
+                                                                                    .container-1 .txt h2,
+                                                                                    .container-1 .txt p {
+                                                                                        margin-bottom: 10%;
+                                                                                    }
+
+                                                                                    .container-1 .txt p {
+                                                                                        font-size: 60%;
+                                                                                    }
+
+                                                                                    .container-1 .txt button {
+                                                                                        font-size: 60%;
+                                                                                    }
+
+                                                                                    @media screen and (max-width: 330px) {
+                                                                                        .container-1 .txt {
+                                                                                            padding: 50px 0;
+                                                                                        }
+
+                                                                                        .container-1 img {
+                                                                                            max-width: 100%;
+                                                                                            max-height: 200px;
+                                                                                        }
+
+                                                                                        .container-1 .txt h2 {
+                                                                                            font-size: 140%;
+                                                                                        }
+
+                                                                                        .container-1 .txt h2,
+                                                                                        .container-1 .txt p {
+                                                                                            margin-bottom: 10%;
+                                                                                        }
+
+                                                                                        .container-1 .txt p {
+                                                                                            font-size: 50%;
+                                                                                        }
+
+                                                                                        .container-1 .txt button {
+                                                                                            font-size: 50%;
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* container-2 */
@@ -64,14 +491,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 150px 250px 0 100px;
+    padding: 0 10% 0 5%;
+    margin-top: 15vh;
     width: 100%;
     box-sizing: border-box;
 }
 
 .container-2 img {
     max-width: 100%;
-    max-height: 450px;
+    max-height: 50%;
     height: auto;
 }
 
@@ -88,16 +516,15 @@
 
 .container-2 .txt h2,
 .container-2 .txt span {
-    margin-bottom: 80px;
-    white-space: nowrap;
+    margin-bottom: 15%;
 }
 
 .container-2 .txt span {
-    margin-right: 10px;
+    margin-right: 2%;
 }
 
 .container-2 .txt h2 {
-    font-size: 200%;
+    font-size: 400%;
     font-family: 'GothamBold', sans-serif;
 }
 
@@ -107,23 +534,24 @@
 }
 
 .container-2 .txt .citation p {
-    font-size: 125%;
+    font-size: 250%;
     white-space: nowrap;
 }
 
 .container-2 .txt .citation span {
+    font-size: 250%;
     align-self: self-end;
 }
 
 .container-2 .txt button {
-    border-radius: 5px;
-    border: 1px solid #000;
+    border-radius: 10px;
+    border: 3px solid #000;
     background-color: White;
-    padding: 15px 25px;
+    padding: 4% 7%;
     white-space: nowrap;
     font-family: 'GothamBold', sans-serif;
     cursor: pointer;
-    font-size: 122.5%;
+    font-size: 250%;
 }
 
 .btn-hover {
@@ -132,4 +560,416 @@
 
 .btn-hover:hover {
     transform: perspective(1px) scale3d(1.05, 1.05, 1) translateZ(0) !important;
+}
+
+
+/* ------------------------------------------------- */
+
+
+@media screen and (max-width: 3670px) {
+
+    .container-2 img {
+        max-width: 100%;
+        max-height: 1000px;
+    }
+
+    @media screen and (max-width: 3350px) {
+
+        .container-2 {
+            padding: 0 7% 0 5%;
+        }
+
+        @media screen and (max-width: 3265px) {
+            .container-2 img {
+                max-width: 100%;
+                max-height: 900px;
+            }
+
+            @media screen and (max-width: 3085px) {
+                /* .container-2 {
+                padding: 0 9% 0 5%;
+            } */
+
+                .container-2 img {
+                    max-width: 100%;
+                    max-height: 800px;
+                }
+
+                .container-2 .txt h2,
+                .container-2 .txt span {
+                    margin-bottom: 13%;
+                }
+
+                .container-2 .txt .citation p,
+                .container-2 .txt .citation span {
+                    font-size: 220%;
+                }
+
+                .container-2 .txt button {
+                    border: 2px solid #000;
+                    font-size: 220%;
+                }
+
+                @media screen and (max-width: 2800px) {
+
+                    .container-2 .txt .citation p,
+                    .container-2 .txt .citation span {
+                        font-size: 180%;
+                    }
+
+                    .container-2 .txt button {
+                        font-size: 180%;
+                    }
+
+                    @media screen and (max-width: 2560px) {
+                        .container-2 img {
+                            max-width: 100%;
+                            max-height: 700px;
+                        }
+
+                        @media screen and (max-width: 2340px) {
+                            .container-2 .txt h2 {
+                                font-size: 350%;
+                            }
+
+                            .container-2 .txt h2,
+                            .container-2 .txt span {
+                                margin-bottom: 18%;
+                            }
+
+                            .container-2 .txt .citation p,
+                            .container-2 .txt .citation span {
+                                font-size: 150%;
+                            }
+
+                            .container-2 .txt button {
+                                font-size: 150%;
+                            }
+
+                            @media screen and (max-width: 2200px) {
+                                .container-2 .txt h2 {
+                                    font-size: 320%;
+                                }
+
+                                @media screen and (max-width: 2150px) {
+                                    .container-2 img {
+                                        max-width: 100%;
+                                        max-height: 600px;
+                                    }
+
+                                    @media screen and (max-width: 1970px) {
+                                        .container-2 img {
+                                            max-width: 100%;
+                                            max-height: 550px;
+                                        }
+
+                                        .container-2 .txt h2 {
+                                            font-size: 300%;
+                                        }
+
+                                        .container-2 .txt h2,
+                                        .container-2 .txt span {
+                                            margin-bottom: 15%;
+                                        }
+
+                                        .container-2 .txt .citation p,
+                                        .container-2 .txt .citation span {
+                                            font-size: 140%;
+                                        }
+
+                                        .container-2 .txt button {
+                                            font-size: 140%;
+                                        }
+
+                                        @media screen and (max-width: 1840px) {
+                                            .container-2 img {
+                                                max-width: 100%;
+                                                max-height: 450px;
+                                            }
+
+                                            .container-2 .txt h2 {
+                                                font-size: 250%;
+                                            }
+
+                                            .container-2 .txt h2,
+                                            .container-2 .txt span {
+                                                margin-bottom: 15%;
+                                            }
+
+                                            .container-2 .txt .citation p,
+                                            .container-2 .txt .citation span {
+                                                font-size: 130%;
+                                            }
+
+                                            .container-2 .txt button {
+                                                font-size: 130%;
+                                            }
+
+                                            @media screen and (max-width: 1600px) {
+                                                .container-2 img {
+                                                    max-width: 100%;
+                                                    max-height: 400px;
+                                                }
+
+                                                .container-2 .txt h2 {
+                                                    font-size: 200%;
+                                                }
+
+                                                .container-2 .txt h2,
+                                                .container-2 .txt span {
+                                                    margin-bottom: 12%;
+                                                }
+
+                                                .container-2 .txt .citation p,
+                                                .container-2 .txt .citation span {
+                                                    font-size: 110%;
+                                                }
+
+                                                .container-2 .txt button {
+                                                    font-size: 110%;
+                                                }
+
+                                                @media screen and (max-width: 1400px) {
+                                                    .container-2 img {
+                                                        max-width: 100%;
+                                                        max-height: 350px;
+                                                    }
+
+                                                    .container-2 .txt h2 {
+                                                        font-size: 150%;
+                                                    }
+
+                                                    .container-2 .txt h2,
+                                                    .container-2 .txt span {
+                                                        margin-bottom: 12%;
+                                                    }
+
+                                                    .container-2 .txt .citation p,
+                                                    .container-2 .txt .citation span {
+                                                        font-size: 100%;
+                                                    }
+
+                                                    .container-2 .txt button {
+                                                        font-size: 100%;
+                                                    }
+
+                                                    @media screen and (max-width: 1250px) {
+                                                        .container-2 img {
+                                                            max-width: 100%;
+                                                            max-height: 300px;
+                                                        }
+
+                                                        @media screen and (max-width: 1150px) {
+                                                            .container-2 .txt h2 {
+                                                                font-size: 125%;
+                                                            }
+
+                                                            .container-2 .txt h2,
+                                                            .container-2 .txt span {
+                                                                margin-bottom: 10%;
+                                                            }
+
+                                                            .container-2 .txt .citation p,
+                                                            .container-2 .txt .citation span {
+                                                                font-size: 80%;
+                                                            }
+
+                                                            .container-2 .txt button {
+                                                                font-size: 80%;
+                                                            }
+
+                                                            @media screen and (max-width: 1030px) {
+                                                                .container-2 img {
+                                                                    max-width: 100%;
+                                                                    max-height: 250px;
+                                                                }
+
+                                                                .container-2 .txt h2 {
+                                                                    font-size: 115%;
+                                                                }
+
+                                                                .container-2 .txt h2,
+                                                                .container-2 .txt span {
+                                                                    margin-bottom: 8%;
+                                                                }
+
+                                                                .container-2 .txt .citation p,
+                                                                .container-2 .txt .citation span {
+                                                                    font-size: 60%;
+                                                                }
+
+                                                                .container-2 .txt button {
+                                                                    font-size: 60%;
+                                                                }
+
+                                                                @media screen and (max-width: 830px) {
+                                                                    .container-2 img {
+                                                                        max-width: 100%;
+                                                                        max-height: 200px;
+                                                                    }
+
+                                                                    @media screen and (max-width: 768px) {
+                                                                        .container-2 {
+                                                                            flex-direction: column;
+                                                                        }
+
+                                                                        .container-2 .txt {
+                                                                            padding: 50px 0;
+                                                                        }
+
+                                                                        .container-2 img {
+                                                                            max-width: 100%;
+                                                                            max-height: 400px;
+                                                                        }
+
+                                                                        .container-2 .txt h2 {
+                                                                            font-size: 200%;
+                                                                        }
+
+                                                                        .container-2 .txt h2,
+                                                                        .container-2 .txt span {
+                                                                            margin-bottom: 20%;
+                                                                        }
+
+                                                                        .container-2 .txt .citation p,
+                                                                        .container-2 .txt .citation span {
+                                                                            font-size: 100%;
+                                                                        }
+
+                                                                        .container-2 .txt button {
+                                                                            font-size: 100%;
+                                                                        }
+
+                                                                        @media screen and (max-width: 600px) {
+                                                                            .container-2 .txt {
+                                                                                padding: 70px 0;
+                                                                            }
+
+                                                                            .container-2 img {
+                                                                                max-width: 100%;
+                                                                                max-height: 350px;
+                                                                            }
+
+                                                                            .container-2 .txt h2 {
+                                                                                font-size: 200%;
+                                                                            }
+
+                                                                            .container-2 .txt h2,
+                                                                            .container-2 .txt span {
+                                                                                margin-bottom: 15%;
+                                                                            }
+
+                                                                            .container-2 .txt .citation p,
+                                                                            .container-2 .txt .citation span {
+                                                                                font-size: 90%;
+                                                                            }
+
+                                                                            .container-2 .txt button {
+                                                                                font-size: 90%;
+                                                                            }
+
+                                                                            @media screen and (max-width: 460px) {
+                                                                                .container-2 .txt {
+                                                                                    padding: 50px 0;
+                                                                                }
+
+                                                                                .container-2 img {
+                                                                                    max-width: 100%;
+                                                                                    max-height: 300px;
+                                                                                }
+
+                                                                                .container-2 .txt h2 {
+                                                                                    font-size: 160%;
+                                                                                }
+
+                                                                                .container-2 .txt h2,
+                                                                                .container-2 .txt span {
+                                                                                    margin-bottom: 10%;
+                                                                                }
+
+                                                                                .container-2 .txt .citation p,
+                                                                                .container-2 .txt .citation span {
+                                                                                    font-size: 70%;
+                                                                                }
+
+                                                                                .container-2 .txt button {
+                                                                                    font-size: 70%;
+                                                                                }
+
+                                                                                @media screen and (max-width: 390px) {
+                                                                                    .container-2 .txt {
+                                                                                        padding: 50px 0;
+                                                                                    }
+
+                                                                                    .container-2 img {
+                                                                                        max-width: 100%;
+                                                                                        max-height: 250px;
+                                                                                    }
+
+                                                                                    .container-2 .txt h2 {
+                                                                                        font-size: 160%;
+                                                                                    }
+
+                                                                                    .container-2 .txt h2,
+                                                                                    .container-2 .txt span {
+                                                                                        margin-bottom: 10%;
+                                                                                    }
+
+                                                                                    .container-2 .txt .citation p,
+                                                                                    .container-2 .txt .citation span {
+                                                                                        font-size: 60%;
+                                                                                    }
+
+                                                                                    .container-2 .txt button {
+                                                                                        font-size: 60%;
+                                                                                    }
+
+                                                                                    @media screen and (max-width: 330px) {
+                                                                                        .container-2 .txt {
+                                                                                            padding: 50px 0;
+                                                                                        }
+
+                                                                                        .container-2 img {
+                                                                                            max-width: 100%;
+                                                                                            max-height: 200px;
+                                                                                        }
+
+                                                                                        .container-2 .txt h2 {
+                                                                                            font-size: 140%;
+                                                                                        }
+
+                                                                                        .container-2 .txt h2,
+                                                                                        .container-2 .txt span {
+                                                                                            margin-bottom: 10%;
+                                                                                        }
+
+                                                                                        .container-2 .txt .citation p,
+                                                                                        .container-2 .txt .citation span {
+                                                                                            font-size: 50%;
+                                                                                        }
+
+                                                                                        .container-2 .txt button {
+                                                                                            font-size: 50%;
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -1,19 +1,19 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
     font-family: 'GothamBold';
-    src: url('/fonts/Gotham-Bold.otf') format('opentype');
+    src: url('../fonts/Gotham-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: GothamBook;
-    src: url('/fonts/GothamBook.ttf') format('opentype');
+    src: url('../fonts/GothamBook.ttf') format('opentype');
 }
 
 html {
@@ -32,15 +32,15 @@ header .header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100px;
+    width: 7%;
 }
 
 .fa-magnifying-glass {
     position: absolute;
-    right: 100px;
+    right: 5%;
     top: 50%;
     transform: translate(0, -50%);
-    font-size: 20px;
+    font-size: 250%;
     cursor: pointer;
     color: #111;
 }
@@ -49,14 +49,15 @@ header .header {
 
 .div_button {
     position: absolute;
-    right: 50px;
+    right: 2.5%;
     top: 50%;
     transform: translate(0, -50%);
+    display: flex;
 }
 
 .box {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 30px;
     border: none;
     position: relative;
     background: none;
@@ -65,29 +66,33 @@ header .header {
 }
 
 .container-lignes {
-    width: 25px;
-    height: 17px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
+
 .ligne {
     position: absolute;
     border-radius: 3px;
-    width: 25px;
-    height: 2.5px;
+    width: 100%;
+    height: 15%;
     background-color: #111;
 }
+
 .box .ligne:nth-child(1) {
-    top: 0px;
+    top: 0%;
 }
+
 .box .ligne:nth-child(2) {
-    top: 7px;
+    top: 50%;
 }
+
 .box .ligne:nth-child(3) {
-    top: 14px;
+    top: 100%;
 }
 
 /* ANIM burger */
@@ -101,11 +106,12 @@ header .header {
     transform: translate(-50%, -50%) rotate(-360deg);
 }
 
-.b1 .ligne:nth-child(1), .ligne:nth-child(3) {
+.b1 .ligne:nth-child(1),
+.ligne:nth-child(3) {
     transform: rotate(0deg);
     transition:
-    transform 0.4s ease-in-out,
-    top 0.4s 0.4s ease-in-out;
+        transform 0.4s ease-in-out,
+        top 0.4s 0.4s ease-in-out;
 }
 
 .b1 .ligne:nth-child(2) {
@@ -113,11 +119,11 @@ header .header {
 }
 
 .b1.active .ligne:nth-child(1) {
-    top: 10px;
+    top: 50%;
     transform: rotate(-45deg);
     transition:
-    top 0.4s ease-in-out,
-    transform 0.4s 0.4s ease-in-out;
+        top 0.4s ease-in-out,
+        transform 0.4s 0.4s ease-in-out;
 }
 
 .b1.active .ligne:nth-child(2) {
@@ -126,11 +132,11 @@ header .header {
 }
 
 .b1.active .ligne:nth-child(3) {
-    top: 10px;
+    top: 50%;
     transform: rotate(45deg);
     transition:
-    top 0.4s ease-in-out,
-    transform 0.4s 0.4s ease-in-out;
+        top 0.4s ease-in-out,
+        transform 0.4s 0.4s ease-in-out;
 }
 
 .nav_link {
@@ -141,7 +147,7 @@ header .header {
     display: none;
     justify-content: space-evenly;
     list-style: none;
-    font-size: 20px;
+    font-size: 300%;
     align-items: center;
     margin-top: -10vh;
     background-color: white;
@@ -152,7 +158,7 @@ header .header {
 .nav_link a {
     text-decoration: none;
     padding: 10px;
-    transition: opacity 0.1s ease-in-out; /* Ajout de la transition ease-in-out */
+    transition: opacity 0.1s ease-in-out;
 }
 
 .nav_link a:hover {
@@ -206,14 +212,206 @@ header .header {
 }
 
 .div_chevron i {
-    font-size: 30px;
+    font-size: 350%;
 }
 
 .div_chevron p {
     font-family: 'GothamBold', sans-serif;
-    font-size: 13px;
+    font-size: 170%;
 }
 
 .div_chevron:hover .element_chevron {
     transform: scale(1.08);
+}
+
+@media screen and (max-width: 3000px) {
+    .nav_link {
+        font-size: 250%;
+    }
+
+    @media screen and (max-width: 2400px) {
+        .nav_link {
+            font-size: 200%;
+        }
+
+        @media screen and (max-width: 2350px) {
+            .fa-magnifying-glass {
+                right: 9%;
+                font-size: 200%;
+            }
+
+            .div_button {
+                right: 5%;
+            }
+
+            .box {
+                width: 32px;
+                height: 24px;
+            }
+
+            .ligne {
+                height: 15%;
+            }
+
+            @media screen and (max-width: 2230px) {
+                .div_chevron i {
+                    font-size: 250%;
+                }
+
+                .div_chevron p {
+                    font-size: 120%;
+                }
+            }
+
+            @media screen and (max-width: 2040px) {
+                .nav_link {
+                    padding: 0 300px;
+                    font-size: 150%;
+                }
+
+                @media screen and (max-width: 1730px) {
+                    .nav_link {
+                        padding: 0 250px;
+                        font-size: 120%;
+                    }
+
+                    @media screen and (max-width: 1600px) {
+                        .div_chevron i {
+                            font-size: 150%;
+                        }
+
+                        .div_chevron p {
+                            font-size: 90%;
+                        }
+                    }
+
+                    @media screen and (max-width: 1500px) {
+                        .fa-magnifying-glass {
+                            right: 13%;
+                            font-size: 130%;
+                        }
+
+                        .div_button {
+                            right: 9%;
+                        }
+
+                        .box {
+                            width: 19.2px;
+                            height: 14.4px;
+                        }
+
+                        .ligne {
+                            height: 15%;
+                        }
+
+                        @media screen and (max-width: 1380px) {
+                            .nav_link {
+                                padding: 0 100px;
+                            }
+
+                            @media screen and (max-width: 1100px) {
+                                .nav_link {
+                                    font-size: 100%;
+                                }
+
+                                @media screen and (max-width: 1000px) {
+                                    .div_chevron i {
+                                        font-size: 100%;
+                                    }
+
+                                    .div_chevron p {
+                                        font-size: 60%;
+                                    }
+                                }
+
+                                @media screen and (max-width: 900px) {
+                                    .nav_link {
+                                        font-size: 80%;
+                                        padding: 0 50px;
+                                    }
+
+                                    @media screen and (max-width: 780px) {
+                                        .fa-magnifying-glass {
+                                            right: 12%;
+                                            font-size: 80%;
+                                        }
+
+                                        .div_button {
+                                            right: 6%;
+                                        }
+
+                                        .box {
+                                            width: 13.44px;
+                                            height: 10.08px;
+                                        }
+
+                                        .ligne {
+                                            height: 15%;
+                                        }
+
+                                        @media screen and (max-width: 655px) {
+                                            .div_chevron i {
+                                                font-size: 70%;
+                                            }
+
+                                            .div_chevron p {
+                                                font-size: 40%;
+                                            }
+                                        }
+
+                                        @media screen and (max-width: 635px) {
+                                            .nav_link {
+                                                font-size: 60%;
+                                                padding: 0 50px;
+                                            }
+
+                                            @media screen and (max-width: 480px) {
+                                                .nav_link {
+                                                    font-size: 50%;
+                                                    padding: 0 10px;
+                                                }
+
+                                                @media screen and (max-width: 460px) {
+                                                    .div_chevron i {
+                                                        font-size: 5px;
+                                                    }
+
+                                                    .div_chevron p {
+                                                        font-size: 4px;
+                                                    }
+                                                }
+
+                                                @media screen and (max-width: 350px) {
+                                                    .nav_link {
+                                                        font-size: 30%;
+                                                        padding: 0 10px;
+                                                    }
+
+                                                    @media screen and (max-width: 780px) {
+                                                        .fa-magnifying-glass {
+                                                            right: 12%;
+                                                            font-size: 50%;
+                                                        }
+
+                                                        .div_button {
+                                                            right: 6%;
+                                                        }
+
+                                                        .box {
+                                                            width: 6.72px;
+                                                            height: 5.04px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
