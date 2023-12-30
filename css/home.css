@@ -40,6 +40,7 @@
 .container-1 .txt p {
     font-size: 250%;
     white-space: nowrap;
+    border: 15px solid red;
 }
 
 .container-1 .txt button {
