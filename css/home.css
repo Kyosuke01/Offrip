@@ -40,9 +40,9 @@
 .container-1 .txt p {
     font-size: 250%;
     /* white-space: nowrap; */
-    /* background-color: red; */
-    /* width: 100vw;
-    height: 100vh; */
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container-1 .txt button {
